@@ -1,6 +1,7 @@
 <script setup>
 import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 import { Link } from '@inertiajs/vue3';
+import ApplicationLogo from 'vendor/laravel/breeze/stubs/inertia-vue-ts/resources/js/Components/ApplicationLogo.vue';
 </script>
 
 <template>

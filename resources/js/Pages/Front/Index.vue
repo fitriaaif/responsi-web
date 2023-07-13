@@ -55,8 +55,8 @@ const props = defineProps({
     <nav class="bg-white">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" class="flex items-center">
-                <img src="img/logo_Web.png" class="h-8 mr-3" alt=" Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Dosen AI</span>
+                <img src="..\..\Components\img\logo.png" class="h-12 mr-3" alt=" Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">by fii</span>
             </a>
             <div class="flex md:order-2">
                 <div v-if="canLogin">
@@ -64,7 +64,7 @@ const props = defineProps({
                         class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Dashboard</button>
                     <template v-else>
                         <Link :href="route('login')" type="button"
-                            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style="background-color: #d83f87;">
                         Log in</Link>
                     </template>
                 </div>
@@ -84,7 +84,7 @@ const props = defineProps({
                     class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 dark:border-gray-700">
                     <li>
                         <a href="#"
-                            class="block py-2 pl-3 pr-4 text-dark bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-dark md:dark:text-blue-500"
+                            class="block py-2 pl-3 pr-4 text-dark bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-dark md:dark:text-blue-500" 
                             aria-current="page">Home</a>
                     </li>
                     <li>
@@ -107,7 +107,7 @@ const props = defineProps({
             </div>
         </div>
     </nav>
-    <section class="bg-white dark:bg-gray-900">
+    <section class="dark:bg-gray-900" style="background-color: #edb5bf;">
         <div class="py-1 px-4 mx-auto max-w-screen-xl  lg:py-16 grid lg:grid-cols-2 gap-12 lg:gap-16">
             <div class="flex flex-col justify-center">
                 <h1
@@ -144,7 +144,7 @@ const props = defineProps({
                 <p class="pt-6 font-body leading-relaxed text-grey-20">{{ about.konten }}</p>
                 <div class="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
                     <div class="flex items-center justify-center sm:justify-start">
-                        <a href="https://www.instagram.com/mujiyantosvc/"
+                        <a href="https://www.linkedin.com/in/fitriaaif/"
                             class="font-body text-lg font-semibold uppercase text-grey-20"> Connect with me </a>
                         <div class="hidden sm:block">
                             <i class="bx bx-chevron-right text-2xl text-primary"></i>
@@ -190,8 +190,8 @@ const props = defineProps({
                         <Logo />
                     </div>
                     <div className="text-sm text-gray-600">
-                        <img src="img/logo_Web.png" class="h-8 mr-3" alt=" Logo" />
-                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Dosen AI</span>
+                        <img src="../../Components/img/logo.png" class="h-12 mr-10" alt=" Logo" />
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">by fii</span>
                     </div>
                 </div>
                 <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
